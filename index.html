@@ -10,8 +10,8 @@
   <body>
     <header>
         <div>
-          <div>
-            <a><img src="img/logo.svg" alt="logo"></a>
+          <div class="nav-top menu-back">
+            <a class="logo-back"><img src="img/logo.svg" alt="logo"></a>
             <span>
               <img src="img/icon-search.svg" alt="find">
               <input type="text" placeholder="Поиск">
@@ -23,7 +23,7 @@
         </div>
         <div>
           <div>
-            <p>Интернет-магазин строительных материалов и инструментов для ремонта</p>
+            <p class="site-description">Интернет-магазин строительных материалов и инструментов для ремонта</p>
             <div>
               <a href="#">+78125550555</a>
               <p>г. Санкт-Петербург, ул. Б7 Конюшенная, д. 19/8</p>
@@ -35,7 +35,7 @@
           </div>
         </div>
         <div>
-          <nav>
+          <nav class="menu-back">
             <ul>
               <li><a>Главная</a></li>
               <li><a href="company.html">Компания</a></li>
@@ -213,17 +213,19 @@
         </section>
       </div>
     </main>
-    <footer>
+    <footer class="footer-nav-back">
       <section>
         <div>
-          <img src="img/logo.svg" alt="logo">
-          <ul>
+          <img class="logo-back" src="img/logo.svg" alt="logo">
+          <nav>
+            <ul>
               <li><a href="company.html">Компания</a></li>
               <li><a href="news.html">Новости</a></li>
               <li><a href="catalog.html">Каталог</a></li>
               <li><a href="sheepping.html">Доставка</a></li>
               <li><a href="contacts.html">Контакты</a></li>
           </ul>
+          </nav>
         </div>
       </section>
       <section>
@@ -241,20 +243,20 @@
           </ul>
         </div>
       </section>
-      <section>
+      <section class="footer-contacts-back">
         <div>
           <p>2010-2019 Компания "Техномарт" <br> Все права защищены</p>
           <ul>
-            <li><a href="#"><img src="img/fb-icon.svg" alt="fb"></a></li>
-            <li><a href="#"><img src="img/vk-icon.svg" alt="vk"></a></li>
-            <li><a href="#"><img src="img/insta-icon.svg" alt="inst"></a></li>
+            <li><a href="#"><img class="icon-back" src="img/fb-icon.svg" alt="fb"></a></li>
+            <li><a href="#"><img class="icon-back" src="img/vk-icon.svg" alt="vk"></a></li>
+            <li><a href="#"><img class="icon-back" src="img/insta-icon.svg" alt="inst"></a></li>
           </ul>
           <p>Обратная связь: <br> <a href="#">mail@htmlacademy.com</a></p>
           <p>Разработано: <br> <a href="https://htmlacademy.ru/intensive/htmlcss">htmlacademy.com</a></p>
         </div>
       </section>
     </footer>
-    <section class="hidden">
+    <section class="visually-hidden">
         <form action="/">
           <button type="button"><img src="img/form-close.svg" alt=""> </button>
           <div>
@@ -275,7 +277,7 @@
 
         </form>
       </section>
-      <section class="hidden">
+      <section class="visually-hidden">
         <button type="button"><img src="img/form-close.svg" alt=""></button>
         <img src="img/map.jpg" alt="">
       </section>

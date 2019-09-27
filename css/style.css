@@ -35,10 +35,42 @@ li {
   background-color: #ee3643;
 }
 
+.logo-back:hover,
+.logo-back:focus {
+  background-color: #ca2c37;
+}
+
+.logo-back:active {
+  background-color: #ba2732;
+}
+
+.input-search {
+  background-color: #293449;
+  border: none;
+  font-size: 17px;
+  color: white;
+}
+
+.input-search:focus,
+.input-search:active {
+  background-color: white;
+}
+
+.search-icon:focus {
+  fill: red;
+}
+
 .make-order-button {
   width: 150px;
   height: 42px;
   background-color: #63a63e;
+}
+.make-order-button:focus,
+.make-order-button:hover {
+  background-color: #5fbb2d;
+}
+.make-order-button:active {
+  background-color: #518534;
 }
 
 .cart-full {
@@ -56,6 +88,20 @@ li {
   width: 940px;
   height: 60px;
   background-color: #32425c;
+}
+
+.menu-nav-item {
+  width: 127px;
+  height: 60px;
+}
+
+.menu-nav-item:hover,
+.menu-nav-item:focus {
+  background-color: #293449;
+}
+
+.menu-nav-item:active {
+  background-color: #1d2739;
 }
 
 .menu-nav-back a,
@@ -128,12 +174,26 @@ address {
 
 .login-back {
   width: 121px;
+  fill: #c5c5c5;
+}
+
+.login-back:hover,
+.register-back:hover {
+  color: red;
+  fill: #32425c;
+}
+
+.login-back:active,
+.register-back:active {
+  fill: #c5c5c5;
+  color: rgba(0, 0, 0, 0.3);
+  opacity: 0.3;
 }
 
 .user-back {
   width: 299px;
   height: 45px;
-  color: white;
+  fill: #c5c5c5;
 }
 
 .user-back p {
@@ -143,7 +203,7 @@ address {
   color: black;
 }
 
-.settings a {
+.settings {
   width: 75px;
   height: 14px;
   font-size: 16px;
@@ -152,12 +212,34 @@ address {
   text-decoration: underline;
 }
 
+.user-back:hover {
+  fill: #32425c;
+}
+
+.settings:hover {
+  color: red;
+}
+
+.user-back:active,
+.settings:active {
+  fill: #c5c5c5;
+  color: rgba(0, 0, 0, 0.3);
+  opacity: 0.3;
+}
+
 .footer-nav-back {
   width: 1200px;
   height: 300px;
   background-color: #32425c;
 }
 
+.content a {
+  width: 79px;
+  height: 17px;
+  font-size: 18px;
+  line-height: 1.33;
+  color: #ffd180;
+}
 .footer-contacts-back {
   width: 1200px;
   height: 107px;
@@ -171,12 +253,10 @@ address {
   border-radius: 21px;
 }
 
-.content a {
-  width: 79px;
-  height: 17px;
-  font-size: 18px;
-  line-height: 1.33;
-  color: #ffd180;
+.icon-back:hover,
+.icon-back:focus,
+.icon-back:active {
+  background-color: #ee3643;
 }
 
 .footer-tm-mail p {
@@ -193,6 +273,9 @@ address {
 
 .footer-tm-mail a {
   color: #ffd180;
+}
+.footer-tm-mail:hover {
+  text-decoration-style: solid;
 }
 
 .tm {
@@ -347,6 +430,17 @@ address {
   text-transform: uppercase;
 }
 
+.buy-button:hover,
+.buy-button:focus {
+  box-shadow: inset 0px -3px 0 0 #367315;
+  background-color: #5fbb2d;
+}
+
+.buy-button:active {
+  background-color: #518534;
+  box-shadow: none;
+}
+
 .bookmark-button {
   width: 135px;
   height: 38px;
@@ -357,6 +451,16 @@ address {
   text-align: center;
   color: #32425c;
   text-transform: uppercase;
+}
+
+.bookmark-button:hover,
+.bookmark-button:focus {
+  border: solid 3px #32425c;
+}
+
+.bookmark-button:active {
+  opacity: 0.3;
+  border: solid 3px #32425c;
 }
 
 .sort-back {
@@ -382,11 +486,20 @@ address {
   text-decoration: underline;
   text-decoration-style: dashed;
   text-decoration-color: red;
+  fill: #c5c5c5;
+}
+
+.sort-item:hover,
+.sort-item:focus {
+  text-decoration-style: solid;
+  color: black;
+  fill: #231f20;
 }
 
 .sort-item-active {
   color: red;
   text-decoration: none;
+  fill: red;
 }
 
 .page-item {
@@ -398,6 +511,14 @@ address {
   line-height: 1.38;
   text-align: center;
   color: black;
+}
+
+.page-item:hover,
+.page-item:focus {
+  border: solid 1px #bdc6ca;
+}
+.page-item:active {
+  border: solid 1px red;
 }
 
 .page-item-active {
@@ -439,8 +560,23 @@ address {
   background-color: #dc91d8;
 }
 
-.cart-green-back {
+.green-back {
   background-color: #8ed78f;
+}
+
+.slider-button {
+  width: 195px;
+  height: 38px;
+  background-color: #ee3643;
+  text-transform: uppercase;
+  color: white;
+}
+.slider-button:hover,
+.slider-button:focus {
+  background-color: #ca2c37;
+}
+.slider-button:active {
+  background-color: #ba2732;
 }
 
 .cart-button {
@@ -452,12 +588,28 @@ address {
   font-size: 14px;
   line-height: 1.29;
   text-align: center;
+  text-transform: uppercase;
 }
 
+.cart-button:hover {
+  opacity: 0.2;
+}
+
+.cart-button:active {
+  opacity: 0.3;
+}
 .card h3 {
   font-size: 24px;
   font-weight: bold;
   line-height: 1.25;
+}
+
+.card-buttons {
+  opacity: 0;
+}
+
+li:hover .card-buttons {
+  opacity: 1;
 }
 
 .popular-back {
@@ -484,6 +636,15 @@ address {
   text-align: center;
   border: solid 1px #eaeaea;
   background-color: #ffffff;
+}
+.brand-background:hover,
+.brand-background:focus {
+  box-shadow: 0px 10px 25px 0 rgba(41, 52, 73, 0.5);
+}
+
+.brand-background:active {
+  opacity: 0.3;
+  box-shadow: 0px 4px 10px 0 rgba(41, 52, 73, 0.5);
 }
 
 .service-back {

@@ -19,13 +19,12 @@
             <img src="img/logo.svg" width="109px" height="19px" alt="logo" />
           </a>
           <span>
-            <img
-              src="img/icon-search.svg"
-              width="17px"
-              height="17px"
-              alt="find"
-            />
-            <input type="text" placeholder="Поиск" />
+            <svg class="search-icon" width="17" height="17" viewBox="0 0 17 17">
+              <path
+                d="M17 15.586l-3.542-3.542A7.465 7.465 0 0 0 15 7.5 7.5 7.5 0 1 0 7.5 15c1.71 0 3.282-.579 4.544-1.542L15.586 17 17 15.586zM2 7.5C2 4.467 4.467 2 7.5 2 10.532 2 13 4.467 13 7.5c0 3.032-2.468 5.5-5.5 5.5A5.506 5.506 0 0 1 2 7.5z"
+              />
+            </svg>
+            <input class="input-search" type="text" placeholder="Поиск" />
           </span>
           <a href="#"
             ><img
@@ -67,14 +66,15 @@
           </div>
           <ul>
             <li>
-              <a class="login-back" href="#"
-                ><img
-                  src="img/icon-login.svg"
-                  width="20px"
-                  height="14px"
-                  alt="login"
-                />Войти</a
-              >
+              <a class="login-back" href="#">
+                <svg width="20" height="17" viewBox="0 0 20 17">
+                  <path d="M14.875 8.5L6 0v6H0v5h6v6z" />
+                  <path
+                    d="M16.986 15.01h-5.027V17h5.027c2.178 0 3.004-1.81 3.029-3.026V3.028C19.99 1.811 19.164 0 16.986 0h-5.027v1.99h5.027c.839 0 .992.681 1.01 1.057v10.904c-.017.376-.171 1.059-1.01 1.059z"
+                  />
+                </svg>
+                Войти
+              </a>
             </li>
             <li><a class="register-back" href="#">Регистрация</a></li>
           </ul>
@@ -83,13 +83,13 @@
       <div>
         <nav class="menu-nav-back">
           <ul>
-            <li><a>Главная</a></li>
-            <li><a href="company.html">Компания</a></li>
-            <li><a href="catalog.html">Каталог</a></li>
-            <li><a href="news.html">Новости</a></li>
-            <li><a href="sale.html">Спецпредожения</a></li>
-            <li><a href="sheepping.html">Доставка</a></li>
-            <li><a href="contacts.html">Контакты</a></li>
+            <li><a class="menu-nav-item">Главная</a></li>
+            <li><a class="menu-nav-item" href="company.html">Компания</a></li>
+            <li><a class="menu-nav-item" href="catalog.html">Каталог</a></li>
+            <li><a class="menu-nav-item" href="news.html">Новости</a></li>
+            <li><a class="menu-nav-item" href="sale.html">Спецпредожения</a></li>
+            <li><a class="menu-nav-item" href="sheepping.html">Доставка</a></li>
+            <li><a class="menu-nav-item" href="contacts.html">Контакты</a></li>
           </ul>
         </nav>
       </div>
@@ -127,7 +127,7 @@
             <img src="img/icon-left.svg" alt="" />
             <img src="img/slider-image.jpg" alt="" />
             <img src="img/icon-right.svg" alt="" />
-            <a href="catalog.html">Открыть каталог</a>
+            <a class="slider-button" href="catalog.html">Открыть каталог</a>
           </div>
           <ul>
             <li>

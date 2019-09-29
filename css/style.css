@@ -29,17 +29,35 @@ li {
     overflow: hidden;
 }
 
+
+/* 1. Header */
+.top-background {
+  width: 1200px;
+  height: 320px;
+  background-color: #f4f7f9;
+}
+
+
+/* 1.1 top  */
+.menu-top {
+  width: 1200px;
+  height: 42px;
+  background-color: #293449;
+}
+.menu-top a {
+  font-size: 17px;
+  color: inherit;
+}
+/* logo */
 .logo-back {
     width: 220px;
     height: 47px;
     background-color: #ee3643;
 }
-
-.logo-back-hearer:hover,
+.logo-back-header:hover,
 .logo-back-header:focus {
     background-color: #ca2c37;
 }
-
 .logo-back-header:active {
     background-color: #ba2732;
 }
@@ -50,15 +68,29 @@ li {
     font-size: 17px;
     color: white;
 }
-
 .input-search:focus,
 .input-search:active {
     background-color: white;
 }
-
-.search-icon:focus {
-    fill: red;
+.search-icon,
+.bookmark-icon,
+.cart-icon {
+  fill: #231F20;
 }
+.search-icon:hover,
+.search-icon:focus,
+.bookmark-icon:hover,
+.bookmark-icon:focus,
+.cart-icon:hover,
+.cart-icon:focus {
+    fill: white;
+}
+
+.bookmark-icon:active,
+.cart-icon:active {
+  opacity: 0.5;
+}
+
 
 .make-order-button {
     width: 150px;
@@ -73,6 +105,7 @@ li {
 
 .make-order-button:active {
     background-color: #518534;
+    opacity: 0.5;
 }
 
 .cart-full {
@@ -81,47 +114,7 @@ li {
     background-color: #ee3643;
 }
 
-.menu-back {
-    width: 1200px;
-    height: 42px;
-    background-color: #293449;
-}
-
-.menu-nav-back {
-    width: 940px;
-    height: 60px;
-    background-color: #32425c;
-}
-
-.menu-nav-back:hover,
-.menu-nav-back:focus {
-    text-decoration-style: solid;
-}
-
-.menu-nav-back:active {
-    opacity: 0.5;
-}
-
-.menu-nav-item {
-    width: 127px;
-    height: 60px;
-}
-
-.menu-nav-item:hover,
-.menu-nav-item:focus {
-    background-color: #293449;
-}
-
-.menu-nav-item:active {
-    background-color: #1d2739;
-}
-
-.menu-nav-back a,
-.nav-top a {
-    font-size: 17px;
-    color: inherit;
-}
-
+/* 1.2 descriptons and contacts */
 .site-description {
     width: 196px;
     height: 60px;
@@ -129,16 +122,8 @@ li {
     font-size: 16px;
     font-style: italic;
     line-height: 1.44;
-    letter-spacing: normal;
     color: #ee3643;
 }
-
-.top-background {
-    width: 1200px;
-    height: 320px;
-    background-color: #f4f7f9;
-}
-
 .phone-back {
     width: 270px;
     height: 45px;
@@ -147,11 +132,9 @@ li {
     line-height: 1;
     color: #ee3643;
 }
-
 address {
     font-style: normal;
 }
-
 .top-address {
     width: 250px;
     height: 13px;
@@ -161,19 +144,7 @@ address {
     color: #32425c;
 }
 
-.footer-address {
-    width: 322px;
-    height: 40px;
-    font-size: 18px;
-    line-height: 1.33;
-    text-align: left;
-    color: #f3f7f9;
-}
-
-.footer-address p {
-    font-family: "Cuprum", Arial, sans-serif;
-}
-
+/* 1.2 register, login , user info */
 .register-back,
 .login-back {
     width: 150px;
@@ -207,13 +178,13 @@ address {
     width: 299px;
     height: 45px;
     fill: #c5c5c5;
-}
-
-.user-back p {
     font-family: "Cuprum", Arial, sans-serif;
     font-size: 21px;
     line-height: 1;
     color: black;
+}
+.user-back:hover {
+    fill: #32425c;
 }
 
 .settings {
@@ -223,10 +194,6 @@ address {
     line-height: 1.13;
     color: #32425c;
     text-decoration: underline;
-}
-
-.user-back:hover {
-    fill: #32425c;
 }
 
 .settings:hover {
@@ -239,6 +206,44 @@ address {
     color: rgba(0, 0, 0, 0.3);
     opacity: 0.3;
 }
+
+/* 1.3 nav */
+.nav-back {
+    width: 940px;
+    height: 60px;
+    background-color: #32425c;
+}
+
+.nav-item-top {
+    width: 127px;
+    height: 60px;
+}
+
+.nav-item-footer,
+.nav-item-top{
+  font-size: 17px;
+    color: inherit;
+}
+
+.nav-item-top:hover,
+.nav-item-top:focus {
+    background-color: #293449;
+}
+
+.nav-item-top:active {
+    background-color: #1d2739;
+    opacity: 0.5;
+}
+
+.nav-item-footer:hover,
+.nav-item-footer:focus {
+  text-decoration: underline;
+}
+.nav-item-footer:active {
+  opacity: 0.5;
+}
+
+
 
 .footer-nav-back {
     width: 1200px;
@@ -316,6 +321,19 @@ address {
 .htmlacademyru {
     width: 96px;
     height: 34px;
+}
+
+.mailhtmlacademyru:hover,
+.mailhtmlacademyru:focus,
+.htmlacademyru:hover,
+.htmlacademyru:focus {
+  text-decoration: underline;
+}
+
+.mailhtmlacademyru:active,
+.htmlacademyru:active {
+  color: red;
+  text-decoration: none;
 }
 
 .brod a {
@@ -685,4 +703,18 @@ li:hover .card-buttons {
     width: 1200px;
     height: 522px;
     background-color: #f4f7f9;
+}
+
+
+.footer-address {
+  width: 322px;
+  height: 40px;
+  font-size: 18px;
+  line-height: 1.33;
+  text-align: left;
+  color: #f3f7f9;
+}
+
+.footer-address p {
+  font-family: "Cuprum", Arial, sans-serif;
 }

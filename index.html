@@ -12,20 +12,32 @@
 <body>
     <header class="top-background">
         <div>
-            <div class="nav-top menu-back">
-                <a class="logo-back logo-back-hearer">
+            <div class="menu-top">
+                <a class="logo-back logo-back-header">
                     <img src="img/logo.svg" width="109px" height="19px" alt="logo" />
                 </a>
                 <span>
-            <svg class="search-icon" width="17" height="17" viewBox="0 0 17 17">
-              <path
-                d="M17 15.586l-3.542-3.542A7.465 7.465 0 0 0 15 7.5 7.5 7.5 0 1 0 7.5 15c1.71 0 3.282-.579 4.544-1.542L15.586 17 17 15.586zM2 7.5C2 4.467 4.467 2 7.5 2 10.532 2 13 4.467 13 7.5c0 3.032-2.468 5.5-5.5 5.5A5.506 5.506 0 0 1 2 7.5z"
-              />
-            </svg>
-            <input class="input-search" type="text" placeholder="Поиск" />
-          </span>
-                <a href="#"><img src="img/icon-bookmark.svg" width="14px" height="16px" alt="bookmark" />Закладки: 0</a>
-                <a href="#"><img src="img/cart-icon.svg" width="15px" height="15px" alt="cart" />Корзина: 0</a>
+                  <svg class="search-icon" width="17" height="17" viewBox="0 0 17 17">
+                    <path
+                      d="M17 15.586l-3.542-3.542A7.465 7.465 0 0 0 15 7.5 7.5 7.5 0 1 0 7.5 15c1.71 0 3.282-.579 4.544-1.542L15.586 17 17 15.586zM2 7.5C2 4.467 4.467 2 7.5 2 10.532 2 13 4.467 13 7.5c0 3.032-2.468 5.5-5.5 5.5A5.506 5.506 0 0 1 2 7.5z"
+                    />
+                  </svg>
+                  <input class="input-search" type="text" placeholder="Поиск" />
+                </span>
+                <a href="#">
+                    <svg class="bookmark-icon" width="14" height="16" viewBox="0 0 14 16">
+                      <path d="M14 15c0 .55-.368.741-.818.426l-5.363-3.765c-.45-.315-1.187-.315-1.637 0L.818 15.426C.368 15.741 0 15.55 0 15V1c0-.55.45-1 1-1h12c.55 0 1 .45 1 1v14z"/>
+                  </svg>
+                  Закладки: 0
+                </a>
+                <a href="#">
+                    <svg class="cart-icon" width="15" height="15" viewBox="0 0 15 15">
+                      <circle cx="4.5" cy="13.5" r="1.5"/>
+                      <circle cx="12.5" cy="13.5" r="1.5"/>
+                      <path d="M15 2H4.07l-.422-2H0v2h2.031l1.985 9H15V9H9.441L15 6.951z"/>
+                  </svg>
+                  Корзина: 0
+                </a>
                 <a class="make-order-button" href="#">Оформить заказ</a>
             </div>
         </div>
@@ -39,8 +51,8 @@
                         <img src="img/icon-phone.svg" width="19px" height="19px" alt="phone" /> +7 (812) 555-05-55
                     </a>
                     <address class="top-address">
-              г. Санкт-Петербург, ул. Б. Конюшенная, д. 19/8
-            </address>
+                      г. Санкт-Петербург, ул. Б. Конюшенная, д. 19/8
+                    </address>
                 </div>
                 <ul>
                     <li>
@@ -58,15 +70,15 @@
             </div>
         </div>
         <div>
-            <nav class="menu-nav-back">
+            <nav class="nav-back">
                 <ul>
-                    <li><a class="menu-nav-item">Главная</a></li>
-                    <li><a class="menu-nav-item" href="company.html">Компания</a></li>
-                    <li><a class="menu-nav-item" href="catalog.html">Каталог</a></li>
-                    <li><a class="menu-nav-item" href="news.html">Новости</a></li>
-                    <li><a class="menu-nav-item" href="sale.html">Спецпредожения</a></li>
-                    <li><a class="menu-nav-item" href="sheepping.html">Доставка</a></li>
-                    <li><a class="menu-nav-item" href="contacts.html">Контакты</a></li>
+                    <li><a class="nav-item-top">Главная</a></li>
+                    <li><a class="nav-item-top" href="company.html">Компания</a></li>
+                    <li><a class="nav-item-top" href="catalog.html">Каталог</a></li>
+                    <li><a class="nav-item-top" href="news.html">Новости</a></li>
+                    <li><a class="nav-item-top" href="sale.html">Спецпредожения</a></li>
+                    <li><a class="nav-item-top" href="sheepping.html">Доставка</a></li>
+                    <li><a class="nav-item-top" href="contacts.html">Контакты</a></li>
                 </ul>
             </nav>
         </div>
@@ -266,15 +278,15 @@
             height="23px"
             alt="logo"
           />
-          <nav class="menu-nav-back">
+          <nav class="nav-back">
             <ul>
-              <li><a href="company.html">Компания</a></li>
-                <li><a href="news.html">Новости</a></li>
-                <li><a href="catalog.html">Каталог</a></li>
-                <li><a href="sheepping.html">Доставка</a></li>
-                <li><a href="contacts.html">Контакты</a></li>
-                </ul>
-                </nav>
+              <li><a class="nav-item-footer" href="company.html">Компания</a></li>
+              <li><a class="nav-item-footer" href="news.html">Новости</a></li>
+              <li><a class="nav-item-footer" href="catalog.html">Каталог</a></li>
+              <li><a class="nav-item-footer" href="sheepping.html">Доставка</a></li>
+              <li><a class="nav-item-footer" href="contacts.html">Контакты</a></li>
+            </ul>
+          </nav>
         </div>
         </section>
         <section>

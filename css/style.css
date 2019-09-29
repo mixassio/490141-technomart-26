@@ -1,654 +1,688 @@
 body {
-  font-family: "Cuprum", Arial, sans-serif;
-  font-size: 14px;
-  line-height: 24px;
-  text-align: left;
-  color: white;
+    font-family: "Cuprum", Arial, sans-serif;
+    font-size: 14px;
+    line-height: 24px;
+    text-align: left;
+    color: white;
 }
 
 a {
-  text-decoration: none;
+    text-decoration: none;
 }
 
 p {
-  font-family: "PT Sans Narrow", Arial, sans-serif;
+    font-family: "PT Sans Narrow", Arial, sans-serif;
 }
 
 li {
-  list-style-type: none;
+    list-style-type: none;
 }
 
 .visually-hidden {
-  position: absolute;
-  width: 1px;
-  height: 1px;
-  margin: -1px;
-  border: 0;
-  padding: 0;
-  clip: rect(0 0 0 0);
-  overflow: hidden;
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    border: 0;
+    padding: 0;
+    clip: rect(0 0 0 0);
+    overflow: hidden;
 }
 
 .logo-back {
-  width: 220px;
-  height: 47px;
-  background-color: #ee3643;
+    width: 220px;
+    height: 47px;
+    background-color: #ee3643;
 }
 
-.logo-back:hover,
-.logo-back:focus {
-  background-color: #ca2c37;
+.logo-back-hearer:hover,
+.logo-back-header:focus {
+    background-color: #ca2c37;
 }
 
-.logo-back:active {
-  background-color: #ba2732;
+.logo-back-header:active {
+    background-color: #ba2732;
 }
 
 .input-search {
-  background-color: #293449;
-  border: none;
-  font-size: 17px;
-  color: white;
+    background-color: #293449;
+    border: none;
+    font-size: 17px;
+    color: white;
 }
 
 .input-search:focus,
 .input-search:active {
-  background-color: white;
+    background-color: white;
 }
 
 .search-icon:focus {
-  fill: red;
+    fill: red;
 }
 
 .make-order-button {
-  width: 150px;
-  height: 42px;
-  background-color: #63a63e;
+    width: 150px;
+    height: 42px;
+    background-color: #63a63e;
 }
+
 .make-order-button:focus,
 .make-order-button:hover {
-  background-color: #5fbb2d;
+    background-color: #5fbb2d;
 }
+
 .make-order-button:active {
-  background-color: #518534;
+    background-color: #518534;
 }
 
 .cart-full {
-  width: 150px;
-  height: 42px;
-  background-color: #ee3643;
+    width: 150px;
+    height: 42px;
+    background-color: #ee3643;
 }
+
 .menu-back {
-  width: 1200px;
-  height: 42px;
-  background-color: #293449;
+    width: 1200px;
+    height: 42px;
+    background-color: #293449;
 }
 
 .menu-nav-back {
-  width: 940px;
-  height: 60px;
-  background-color: #32425c;
+    width: 940px;
+    height: 60px;
+    background-color: #32425c;
+}
+
+.menu-nav-back:hover,
+.menu-nav-back:focus {
+    text-decoration-style: solid;
+}
+
+.menu-nav-back:active {
+    opacity: 0.5;
 }
 
 .menu-nav-item {
-  width: 127px;
-  height: 60px;
+    width: 127px;
+    height: 60px;
 }
 
 .menu-nav-item:hover,
 .menu-nav-item:focus {
-  background-color: #293449;
+    background-color: #293449;
 }
 
 .menu-nav-item:active {
-  background-color: #1d2739;
+    background-color: #1d2739;
 }
 
 .menu-nav-back a,
 .nav-top a {
-  font-size: 17px;
-  color: inherit;
+    font-size: 17px;
+    color: inherit;
 }
 
 .site-description {
-  width: 196px;
-  height: 60px;
-  font-family: "Cuprum", Arial, sans-serif;
-  font-size: 16px;
-  font-style: italic;
-  line-height: 1.44;
-  letter-spacing: normal;
-  color: #ee3643;
+    width: 196px;
+    height: 60px;
+    font-family: "Cuprum", Arial, sans-serif;
+    font-size: 16px;
+    font-style: italic;
+    line-height: 1.44;
+    letter-spacing: normal;
+    color: #ee3643;
 }
 
 .top-background {
-  width: 1200px;
-  height: 320px;
-  background-color: #f4f7f9;
+    width: 1200px;
+    height: 320px;
+    background-color: #f4f7f9;
 }
 
 .phone-back {
-  width: 270px;
-  height: 45px;
-  border: solid 3px white;
-  font-size: 21px;
-  line-height: 1;
-  color: #ee3643;
+    width: 270px;
+    height: 45px;
+    border: solid 3px white;
+    font-size: 21px;
+    line-height: 1;
+    color: #ee3643;
 }
 
 address {
-  font-style: normal;
+    font-style: normal;
 }
 
 .top-address {
-  width: 250px;
-  height: 13px;
-  font-size: 14px;
-  line-height: 1.71;
-  text-align: center;
-  color: #32425c;
+    width: 250px;
+    height: 13px;
+    font-size: 14px;
+    line-height: 1.71;
+    text-align: center;
+    color: #32425c;
 }
 
 .footer-address {
-  width: 322px;
-  height: 40px;
-  font-size: 18px;
-  line-height: 1.33;
-  text-align: left;
-  color: #f3f7f9;
+    width: 322px;
+    height: 40px;
+    font-size: 18px;
+    line-height: 1.33;
+    text-align: left;
+    color: #f3f7f9;
 }
+
 .footer-address p {
-  font-family: "Cuprum", Arial, sans-serif;
+    font-family: "Cuprum", Arial, sans-serif;
 }
 
 .register-back,
 .login-back {
-  width: 150px;
-  height: 45px;
-  background-color: white;
-  font-size: 21px;
-  line-height: 1;
-  letter-spacing: normal;
-  color: black;
+    width: 150px;
+    height: 45px;
+    background-color: white;
+    font-size: 21px;
+    line-height: 1;
+    letter-spacing: normal;
+    color: black;
 }
 
 .login-back {
-  width: 121px;
-  fill: #c5c5c5;
+    width: 121px;
+    fill: #c5c5c5;
 }
 
 .login-back:hover,
 .register-back:hover {
-  color: red;
-  fill: #32425c;
+    color: red;
+    fill: #32425c;
 }
 
 .login-back:active,
 .register-back:active {
-  fill: #c5c5c5;
-  color: rgba(0, 0, 0, 0.3);
-  opacity: 0.3;
+    fill: #c5c5c5;
+    color: rgba(0, 0, 0, 0.3);
+    opacity: 0.3;
 }
 
 .user-back {
-  width: 299px;
-  height: 45px;
-  fill: #c5c5c5;
+    width: 299px;
+    height: 45px;
+    fill: #c5c5c5;
 }
 
 .user-back p {
-  font-family: "Cuprum", Arial, sans-serif;
-  font-size: 21px;
-  line-height: 1;
-  color: black;
+    font-family: "Cuprum", Arial, sans-serif;
+    font-size: 21px;
+    line-height: 1;
+    color: black;
 }
 
 .settings {
-  width: 75px;
-  height: 14px;
-  font-size: 16px;
-  line-height: 1.13;
-  color: #32425c;
-  text-decoration: underline;
+    width: 75px;
+    height: 14px;
+    font-size: 16px;
+    line-height: 1.13;
+    color: #32425c;
+    text-decoration: underline;
 }
 
 .user-back:hover {
-  fill: #32425c;
+    fill: #32425c;
 }
 
 .settings:hover {
-  color: red;
+    color: red;
 }
 
 .user-back:active,
 .settings:active {
-  fill: #c5c5c5;
-  color: rgba(0, 0, 0, 0.3);
-  opacity: 0.3;
+    fill: #c5c5c5;
+    color: rgba(0, 0, 0, 0.3);
+    opacity: 0.3;
 }
 
 .footer-nav-back {
-  width: 1200px;
-  height: 300px;
-  background-color: #32425c;
+    width: 1200px;
+    height: 300px;
+    background-color: #32425c;
 }
 
-.content a {
-  width: 79px;
-  height: 17px;
-  font-size: 18px;
-  line-height: 1.33;
-  color: #ffd180;
+.content {
+    width: 79px;
+    height: 17px;
+    font-size: 18px;
+    line-height: 1.33;
+    color: #ffd180;
 }
+
+.content:hover,
+.content:focus {
+    text-decoration: underline;
+}
+
+.content:active {
+    opacity: 0.5;
+    ;
+}
+
 .footer-contacts-back {
-  width: 1200px;
-  height: 107px;
-  background-color: #293449;
+    width: 1200px;
+    height: 107px;
+    background-color: #293449;
 }
 
 .icon-back {
-  width: 42px;
-  height: 42px;
-  background-color: #212a3a;
-  border-radius: 21px;
+    width: 42px;
+    height: 42px;
+    background-color: #212a3a;
+    border-radius: 21px;
 }
 
 .icon-back:hover,
 .icon-back:focus,
 .icon-back:active {
-  background-color: #ee3643;
+    background-color: #ee3643;
 }
 
 .footer-tm-mail p {
-  font-family: "Cuprum", Arial, sans-serif;
-  font-size: 16px;
-  font-weight: normal;
-  font-style: normal;
-  font-stretch: normal;
-  line-height: 1.13;
-  letter-spacing: normal;
-  text-align: left;
-  color: white;
+    font-family: "Cuprum", Arial, sans-serif;
+    font-size: 16px;
+    font-weight: normal;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 1.13;
+    letter-spacing: normal;
+    text-align: left;
+    color: white;
 }
 
 .footer-tm-mail a {
-  color: #ffd180;
+    color: #ffd180;
 }
+
 .footer-tm-mail:hover {
-  text-decoration-style: solid;
+    text-decoration-style: solid;
 }
 
 .tm {
-  width: 228px;
-  height: 33px;
+    width: 228px;
+    height: 33px;
 }
 
 .mailhtmlacademyru {
-  width: 135px;
-  height: 32px;
+    width: 135px;
+    height: 32px;
 }
 
 .htmlacademyru {
-  width: 96px;
-  height: 34px;
+    width: 96px;
+    height: 34px;
 }
 
 .brod a {
-  width: 53px;
-  height: 9px;
-  font-family: "PTSans", Arial, sans-serif;
-  font-size: 13px;
-  line-height: 1.38;
-  color: black;
-  text-transform: uppercase;
+    width: 53px;
+    height: 9px;
+    font-family: "PTSans", Arial, sans-serif;
+    font-size: 13px;
+    line-height: 1.38;
+    color: black;
+    text-transform: uppercase;
 }
 
 .description {
-  color: black;
+    color: black;
 }
 
 .description h3 {
-  font-size: 30px;
-  text-transform: uppercase;
+    font-size: 30px;
+    text-transform: uppercase;
 }
 
 .description p {
-  font-size: 13px;
-  line-height: 1.85;
+    font-size: 13px;
+    line-height: 1.85;
 }
 
 .description li {
-  font-size: 18px;
-  line-height: 1.11;
+    font-size: 18px;
+    line-height: 1.11;
 }
 
 .red-button {
-  background-color: #ee3643;
-  font-size: 14px;
-  line-height: 1.29;
-  text-align: center;
-  color: white;
+    background-color: #ee3643;
+    font-size: 14px;
+    line-height: 1.29;
+    text-align: center;
+    color: white;
 }
 
 .company-button {
-  width: 220px;
-  height: 38px;
+    width: 220px;
+    height: 38px;
 }
 
 .feedback-button {
-  width: 300px;
-  height: 38px;
+    width: 300px;
+    height: 38px;
 }
 
 .category-back {
-  width: 940px;
-  height: 89px;
-  background-color: #f2f6f8;
+    width: 940px;
+    height: 89px;
+    background-color: #f2f6f8;
 }
 
 .category-back h1 {
-  font-size: 30px;
-  line-height: 1;
-  color: #32425c;
-  text-transform: uppercase;
-  font-weight: normal;
+    font-size: 30px;
+    line-height: 1;
+    color: #32425c;
+    text-transform: uppercase;
+    font-weight: normal;
 }
 
 .filter-category {
-  font-size: 17px;
-  font-weight: bold;
-  line-height: 1.76;
-  color: black;
+    font-size: 17px;
+    font-weight: bold;
+    line-height: 1.76;
+    color: black;
 }
 
 .filter-item {
-  font-size: 15px;
-  font-family: "PTSans", Arial, sans-serif;
-  line-height: 1.33;
-  color: black;
+    font-size: 15px;
+    font-family: "PTSans", Arial, sans-serif;
+    line-height: 1.33;
+    color: black;
 }
 
 .next-button {
-  width: 140px;
-  height: 38px;
-  border: solid 1px #e5e5e5;
-  background-color: white;
-  font-family: "PTSans", Arial, sans-serif;
-  font-size: 13px;
-  line-height: 1.38;
-  color: black;
-  text-transform: uppercase;
+    width: 140px;
+    height: 38px;
+    border: solid 1px #e5e5e5;
+    background-color: white;
+    font-family: "PTSans", Arial, sans-serif;
+    font-size: 13px;
+    line-height: 1.38;
+    color: black;
+    text-transform: uppercase;
 }
 
 .item-back {
-  width: 220px;
-  height: 318px;
-  border: solid 1px #e5e5e5;
-  background-color: white;
+    width: 220px;
+    height: 318px;
+    border: solid 1px #e5e5e5;
+    background-color: white;
 }
 
 .item-back h3 {
-  font-family: "PTSans", Arial, sans-serif;
-  font-size: 18px;
-  font-weight: bold;
-  line-height: 1.11;
-  text-align: center;
-  color: black;
+    font-family: "PTSans", Arial, sans-serif;
+    font-size: 18px;
+    font-weight: bold;
+    line-height: 1.11;
+    text-align: center;
+    color: black;
 }
 
 .item-back {
-  font-family: "PTSans", Arial, sans-serif;
-  font-size: 17px;
-  font-weight: bold;
-  line-height: 1.06;
-  text-align: center;
+    font-family: "PTSans", Arial, sans-serif;
+    font-size: 17px;
+    font-weight: bold;
+    line-height: 1.06;
+    text-align: center;
 }
 
 .item-old-price {
-  color: #999999;
-  text-decoration: line-through;
+    color: #999999;
+    text-decoration: line-through;
 }
 
 .item-button {
-  width: 141px;
-  height: 38px;
-  background-color: red;
-  color: black;
-  text-decoration: none;
+    width: 141px;
+    height: 38px;
+    background-color: red;
+    color: black;
+    text-decoration: none;
 }
 
 .buy-button {
-  width: 135px;
-  height: 38px;
-  box-shadow: inset 0px -3px 0 0 #367315;
-  background-color: #63a63e;
-  font-family: "Cuprum", Arial, sans-serif;
-  font-size: 14px;
-  line-height: 1.29;
-  text-align: center;
-  color: #32425c;
-  text-transform: uppercase;
+    width: 135px;
+    height: 38px;
+    box-shadow: inset 0px -3px 0 0 #367315;
+    background-color: #63a63e;
+    font-family: "Cuprum", Arial, sans-serif;
+    font-size: 14px;
+    line-height: 1.29;
+    text-align: center;
+    color: #32425c;
+    text-transform: uppercase;
 }
 
 .buy-button:hover,
 .buy-button:focus {
-  box-shadow: inset 0px -3px 0 0 #367315;
-  background-color: #5fbb2d;
+    box-shadow: inset 0px -3px 0 0 #367315;
+    background-color: #5fbb2d;
 }
 
 .buy-button:active {
-  background-color: #518534;
-  box-shadow: none;
+    background-color: #518534;
+    box-shadow: none;
 }
 
 .bookmark-button {
-  width: 135px;
-  height: 38px;
-  border: solid 3px #63a63e;
-  font-family: "Cuprum", Arial, sans-serif;
-  font-size: 14px;
-  line-height: 1.29;
-  text-align: center;
-  color: #32425c;
-  text-transform: uppercase;
+    width: 135px;
+    height: 38px;
+    border: solid 3px #63a63e;
+    font-family: "Cuprum", Arial, sans-serif;
+    font-size: 14px;
+    line-height: 1.29;
+    text-align: center;
+    color: #32425c;
+    text-transform: uppercase;
 }
 
 .bookmark-button:hover,
 .bookmark-button:focus {
-  border: solid 3px #32425c;
+    border: solid 3px #32425c;
 }
 
 .bookmark-button:active {
-  opacity: 0.3;
-  border: solid 3px #32425c;
+    opacity: 0.3;
+    border: solid 3px #32425c;
 }
 
 .sort-back {
-  width: 700px;
-  height: 38px;
-  background-color: #f7f3ec;
+    width: 700px;
+    height: 38px;
+    background-color: #f7f3ec;
 }
 
 .sort-back h2,
 .sort-item {
-  font-family: "PTSans", Arial, sans-serif;
-  font-size: 13px;
-  line-height: 1.38;
-  color: #000000;
-  text-transform: uppercase;
-  font-weight: normal;
+    font-family: "PTSans", Arial, sans-serif;
+    font-size: 13px;
+    line-height: 1.38;
+    color: #000000;
+    text-transform: uppercase;
+    font-weight: normal;
 }
 
 .sort-item {
-  background-color: inherit;
-  border: none;
-  color: rgba(0, 0, 0, 0.3);
-  text-decoration: underline;
-  text-decoration-style: dashed;
-  text-decoration-color: red;
-  fill: #c5c5c5;
+    background-color: inherit;
+    border: none;
+    color: rgba(0, 0, 0, 0.3);
+    text-decoration: underline;
+    text-decoration-style: dashed;
+    text-decoration-color: red;
+    fill: #c5c5c5;
 }
 
 .sort-item:hover,
 .sort-item:focus {
-  text-decoration-style: solid;
-  color: black;
-  fill: #231f20;
+    text-decoration-style: solid;
+    color: black;
+    fill: #231f20;
 }
 
 .sort-item-active {
-  color: red;
-  text-decoration: none;
-  fill: red;
+    color: red;
+    text-decoration: none;
+    fill: red;
 }
 
 .page-item {
-  width: 38px;
-  height: 38px;
-  border: solid 1px #e5e5e5;
-  font-family: "PTSans", Arial, sans-serif;
-  font-size: 13px;
-  line-height: 1.38;
-  text-align: center;
-  color: black;
+    width: 38px;
+    height: 38px;
+    border: solid 1px #e5e5e5;
+    font-family: "PTSans", Arial, sans-serif;
+    font-size: 13px;
+    line-height: 1.38;
+    text-align: center;
+    color: black;
 }
 
 .page-item:hover,
 .page-item:focus {
-  border: solid 1px #bdc6ca;
+    border: solid 1px #bdc6ca;
 }
+
 .page-item:active {
-  border: solid 1px red;
+    border: solid 1px red;
 }
 
 .page-item-active {
-  background-color: red;
-  color: inherit;
+    background-color: red;
+    color: inherit;
 }
 
 .service-back {
-  width: 1200px;
-  height: 261px;
-  background-color: #f4f7f9;
-  color: black;
-  font-family: "PTSans", Arial, sans-serif;
-  font-size: 13px;
-  line-height: 1.85;
+    width: 1200px;
+    height: 261px;
+    background-color: #f4f7f9;
+    color: black;
+    font-family: "PTSans", Arial, sans-serif;
+    font-size: 13px;
+    line-height: 1.85;
 }
 
 .service-back h2 {
-  font-family: "Cuprum", Arial, sans-serif;
-  font-size: 24px;
-  text-transform: uppercase;
-  font-weight: normal;
+    font-family: "Cuprum", Arial, sans-serif;
+    font-size: 24px;
+    text-transform: uppercase;
+    font-weight: normal;
 }
 
 .card {
-  width: 300px;
-  height: 123px;
+    width: 300px;
+    height: 123px;
 }
 
 .yellow-back {
-  background-color: #ffc047;
+    background-color: #ffc047;
 }
 
 .blue-back {
-  background-color: blue;
+    background-color: blue;
 }
 
 .pink-back {
-  background-color: #dc91d8;
+    background-color: #dc91d8;
 }
 
 .green-back {
-  background-color: #8ed78f;
+    background-color: #8ed78f;
 }
 
 .slider-button {
-  width: 195px;
-  height: 38px;
-  background-color: #ee3643;
-  text-transform: uppercase;
-  color: white;
+    width: 195px;
+    height: 38px;
+    background-color: #ee3643;
+    text-transform: uppercase;
+    color: white;
 }
+
 .slider-button:hover,
-.slider-button:focus {
-  background-color: #ca2c37;
+.slider-button:focus,
+.red-button:hover,
+.red-button:focus {
+    background-color: #ca2c37;
 }
-.slider-button:active {
-  background-color: #ba2732;
+
+.slider-button:active,
+.red-button:active {
+    background-color: #ba2732;
 }
 
 .cart-button {
-  width: 135px;
-  height: 38px;
-  opacity: 0.1;
-  background-color: #000000;
-  color: white;
-  font-size: 14px;
-  line-height: 1.29;
-  text-align: center;
-  text-transform: uppercase;
+    width: 135px;
+    height: 38px;
+    opacity: 0.1;
+    background-color: #000000;
+    color: white;
+    font-size: 14px;
+    line-height: 1.29;
+    text-align: center;
+    text-transform: uppercase;
 }
 
 .cart-button:hover {
-  opacity: 0.2;
+    opacity: 0.2;
 }
 
 .cart-button:active {
-  opacity: 0.3;
+    opacity: 0.3;
 }
+
 .card h3 {
-  font-size: 24px;
-  font-weight: bold;
-  line-height: 1.25;
+    font-size: 24px;
+    font-weight: bold;
+    line-height: 1.25;
 }
 
 .card-buttons {
-  opacity: 0;
+    opacity: 0;
 }
 
 li:hover .card-buttons {
-  opacity: 1;
+    opacity: 1;
 }
 
 .popular-back {
-  width: 940px;
-  height: 89px;
-  background-color: #f9f5f0;
-  font-size: 30px;
-  text-transform: uppercase;
-  color: #32425c;
-  font-weight: normal;
+    width: 940px;
+    height: 89px;
+    background-color: #f9f5f0;
+    font-size: 30px;
+    text-transform: uppercase;
+    color: #32425c;
+    font-weight: normal;
 }
 
 .popular-button {
-  width: 253px;
-  height: 38px;
-  background-color: #ee3643;
-  font-size: 14px;
-  line-height: 1.29;
-  text-transform: uppercase;
+    width: 253px;
+    height: 38px;
+    background-color: #ee3643;
+    font-size: 14px;
+    line-height: 1.29;
+    text-transform: uppercase;
 }
+
 .brand-background {
-  width: 220px;
-  height: 145px;
-  text-align: center;
-  border: solid 1px #eaeaea;
-  background-color: #ffffff;
+    width: 220px;
+    height: 145px;
+    text-align: center;
+    border: solid 1px #eaeaea;
+    background-color: #ffffff;
 }
+
 .brand-background:hover,
 .brand-background:focus {
-  box-shadow: 0px 10px 25px 0 rgba(41, 52, 73, 0.5);
+    box-shadow: 0px 10px 25px 0 rgba(41, 52, 73, 0.5);
 }
 
 .brand-background:active {
-  opacity: 0.3;
-  box-shadow: 0px 4px 10px 0 rgba(41, 52, 73, 0.5);
+    opacity: 0.3;
+    box-shadow: 0px 4px 10px 0 rgba(41, 52, 73, 0.5);
 }
 
 .service-back {
-  width: 1200px;
-  height: 522px;
-  background-color: #f4f7f9;
+    width: 1200px;
+    height: 522px;
+    background-color: #f4f7f9;
 }

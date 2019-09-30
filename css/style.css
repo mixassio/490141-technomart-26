@@ -238,6 +238,7 @@ address {
 
 .nav-item-top:active {
     background-color: #1d2739;
+    opacity: 0.5;
 }
 
 .nav-item-footer:hover,

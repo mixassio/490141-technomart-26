@@ -75,7 +75,8 @@ li {
 .search-icon,
 .bookmark-icon,
 .cart-icon {
-  fill: #231F20;
+  fill: #ffffff;
+  opacity: 0.3;
 }
 .search-icon:hover,
 .search-icon:focus,
@@ -83,13 +84,19 @@ li {
 .bookmark-icon:focus,
 .cart-icon:hover,
 .cart-icon:focus {
-    fill: white;
+    opacity: 1;
 }
 
 .bookmark-icon:active,
 .cart-icon:active {
   opacity: 0.5;
   background-color: #161d29;
+}
+
+.cart:active,
+.bookmark:active {
+    opacity: 0.6;
+    background-color: #161d29;
 }
 
 
@@ -110,8 +117,6 @@ li {
 }
 
 .cart-full {
-    width: 150px;
-    height: 42px;
     background-color: #ee3643;
 }
 

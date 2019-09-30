@@ -89,6 +89,7 @@ li {
 .bookmark-icon:active,
 .cart-icon:active {
   opacity: 0.5;
+  background-color: #161d29;
 }
 
 
@@ -203,7 +204,7 @@ address {
 .user-back:active,
 .settings:active {
     fill: #c5c5c5;
-    color: rgba(0, 0, 0, 0.3);
+    color: rgba(50, 66, 92, 0.3);
     opacity: 0.3;
 }
 
@@ -266,7 +267,7 @@ address {
 
 .content:active {
     opacity: 0.5;
-    ;
+    text-decoration: none;
 }
 
 .footer-contacts-back {

@@ -18,6 +18,11 @@ li {
     list-style-type: none;
 }
 
+.main {
+    width: 1200px;
+    background-color: rgba(50, 66, 92, 0.3)
+}
+
 .visually-hidden {
     position: absolute;
     width: 1px;
@@ -36,10 +41,15 @@ li {
   height: 320px;
   background-color: #f4f7f9;
 }
-
+.main-background {
+    width: 1200px;
+}
 
 /* 1.1 top  */
 .menu-top {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
   width: 1200px;
   height: 42px;
   background-color: #293449;
@@ -121,6 +131,10 @@ li {
 }
 
 /* 1.2 descriptons and contacts */
+.phone-container {
+    display: flex;
+    flex-direction: column;
+}
 .site-description {
     width: 196px;
     height: 60px;
@@ -137,6 +151,7 @@ li {
     font-size: 21px;
     line-height: 1;
     color: #ee3643;
+    text-align: center;
 }
 address {
     font-style: normal;
@@ -148,6 +163,7 @@ address {
     line-height: 1.71;
     text-align: center;
     color: #32425c;
+    text-align: center;
 }
 
 /* 1.2 register, login , user info */
@@ -160,6 +176,8 @@ address {
     line-height: 1;
     letter-spacing: normal;
     color: black;
+    margin: 5px;
+    text-align: center;
 }
 
 .login-back {
@@ -220,6 +238,20 @@ address {
     background-color: #32425c;
 }
 
+.nav-back ul {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+
+  }
+.nav-back ul li {
+    list-style: none;
+    display: inline-block;
+    width: 127px;
+    height: 120px;
+    text-align: center;
+  }
+
 .nav-item-top {
     width: 127px;
     height: 60px;
@@ -276,11 +308,22 @@ address {
     text-decoration: none;
 }
 
-.footer-contacts-back {
-    width: 1200px;
+.footer-tm-mail {
+    width: auto;
     height: 107px;
     background-color: #293449;
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
 }
+
+.footer-tm-mail ul li {
+    list-style: none;
+    display: inline-block;
+    width: 127px;
+    height: 120px;
+    text-align: center;
+  }
 
 .icon-back {
     width: 42px;
@@ -305,6 +348,7 @@ address {
     letter-spacing: normal;
     text-align: left;
     color: white;
+
 }
 
 .footer-tm-mail a {
@@ -351,6 +395,7 @@ address {
     line-height: 1.38;
     color: black;
     text-transform: uppercase;
+    margin: 10px;
 }
 
 .description {
@@ -391,7 +436,6 @@ address {
 }
 
 .category-back {
-    width: 940px;
     height: 89px;
     background-color: #f2f6f8;
 }
@@ -577,14 +621,20 @@ address {
     color: inherit;
 }
 
+
 .service-back {
-    width: 1200px;
+    width: auto;
     height: 261px;
     background-color: #f4f7f9;
     color: black;
     font-family: "PTSans", Arial, sans-serif;
     font-size: 13px;
     line-height: 1.85;
+    display:flex;
+    flex-direction: column;
+    padding-top: 60px;
+    padding-left: 80px;
+    padding-right: 80px;
 }
 
 .service-back h2 {
@@ -592,6 +642,7 @@ address {
     font-size: 24px;
     text-transform: uppercase;
     font-weight: normal;
+
 }
 
 .card {
@@ -706,15 +757,10 @@ li:hover .card-buttons {
     box-shadow: 0px 4px 10px 0 rgba(41, 52, 73, 0.5);
 }
 
-.service-back {
-    width: 1200px;
-    height: 522px;
-    background-color: #f4f7f9;
-}
 
 
 .footer-address {
-  width: 322px;
+  width: 340px;
   height: 40px;
   font-size: 18px;
   line-height: 1.33;
@@ -725,3 +771,60 @@ li:hover .card-buttons {
 .footer-address p {
   font-family: "Cuprum", Arial, sans-serif;
 }
+
+/* flex */
+.medium-footer {
+    display: flex;
+    align-items: top;
+    margin-top: 50px;
+    justify-content: space-between;
+    padding: 5px;
+}
+
+
+.container {
+    display:flex;
+    width: 940px;
+    margin: 0 auto;
+    padding: 0 10px;
+    /* background-color: rgba(0, 0, 0, 0.3); */
+
+  }
+
+.main-course {
+    display: flex;
+}
+
+.products {
+    display: flex;
+}
+
+.products ul {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+
+  }
+.products ul li {
+    list-style: none;
+    display: inline-block;
+    width: auto;
+    height: auto;
+  }
+
+.footer-logo-nav {
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer-address-menu {
+    display: flex;
+}
+
+.footer-address-menu ul li {
+    list-style: none;
+    display: inline-block;
+    width: 127px;
+    height: 120px;
+    text-align: center;
+  }

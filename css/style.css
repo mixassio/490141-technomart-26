@@ -241,18 +241,15 @@ address {
   }
 .nav-back ul li {
     list-style: none;
-    padding-right: 60px;
   }
 
-.nav-item-top {
-    width: 127px;
-    text-align: center;
-}
 
 .nav-item-footer,
 .nav-item-top{
   font-size: 17px;
     color: inherit;
+    text-align: center;
+    padding-right: 60px;
 }
 
 .nav-item-top:hover,
@@ -302,7 +299,6 @@ address {
 }
 
 .footer-tm-mail {
-    width: auto;
     height: 107px;
     background-color: #293449;
     display: flex;
@@ -382,6 +378,10 @@ address {
   text-decoration: none;
 }
 
+.brod {
+    display: flex;
+}
+
 .brod a {
     width: 53px;
     height: 9px;
@@ -395,6 +395,7 @@ address {
 
 .description {
     color: black;
+    display: flex;
 }
 
 .description h3 {
@@ -618,14 +619,13 @@ address {
 
 
 .service-back {
-    width: auto;
     height: 261px;
     background-color: #f4f7f9;
     color: black;
     font-family: "PTSans", Arial, sans-serif;
     font-size: 13px;
     line-height: 1.85;
-    display:flex;
+    display: flex;
     flex-direction: column;
     padding-top: 60px;
     padding-left: 80px;
@@ -771,12 +771,11 @@ li:hover .card-buttons {
     display: flex;
     margin-top: 50px;
     justify-content: space-between;
-    padding: 5px;
+    padding: 40px;
 }
 
 
 .container {
-    display:flex;
     width: 940px;
     margin: 0 auto;
   }
@@ -796,8 +795,6 @@ li:hover .card-buttons {
   }
 .products ul li {
     list-style: none;
-    width: auto;
-    height: auto;
   }
 
 .footer-logo-nav {

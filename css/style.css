@@ -236,7 +236,6 @@ address {
 
 .nav-back ul {
     display: flex;
-    /* flex-direction: row; DELETE */
     flex-wrap: wrap;
 
   }
@@ -247,7 +246,6 @@ address {
 
 .nav-item-top {
     width: 127px;
-    height: 60px;
     text-align: center;
 }
 
@@ -312,12 +310,14 @@ address {
     padding: 20px;
 }
 
+.footer-tm-mail ul {
+    display: flex;
+
+}
 .footer-tm-mail ul li {
     list-style: none;
-    display: inline-block;
-    width: 127px;
-    height: 120px;
-    text-align: center;
+    padding: 10px;
+
   }
 
 .icon-back {
@@ -779,9 +779,6 @@ li:hover .card-buttons {
     display:flex;
     width: 940px;
     margin: 0 auto;
-    /* padding: 0 10px; DELETE */
-    /* background-color: rgba(0, 0, 0, 0.3); */
-
   }
 
 .main-course {
@@ -794,7 +791,6 @@ li:hover .card-buttons {
 
 .products ul {
     display: flex;
-    flex-direction: row;
     flex-wrap: wrap;
 
   }

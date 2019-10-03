@@ -131,13 +131,9 @@ li {
 }
 
 /* 1.2 descriptons and contacts */
-.phone-container {
-    display: flex;
-    flex-direction: column;
-}
+
 .site-description {
     width: 196px;
-    height: 60px;
     font-family: "Cuprum", Arial, sans-serif;
     font-size: 16px;
     font-style: italic;
@@ -240,21 +236,19 @@ address {
 
 .nav-back ul {
     display: flex;
-    flex-direction: row;
+    /* flex-direction: row; DELETE */
     flex-wrap: wrap;
 
   }
 .nav-back ul li {
     list-style: none;
-    display: inline-block;
-    width: 127px;
-    height: 120px;
-    text-align: center;
+    padding-right: 60px;
   }
 
 .nav-item-top {
     width: 127px;
     height: 60px;
+    text-align: center;
 }
 
 .nav-item-footer,
@@ -296,6 +290,7 @@ address {
     font-size: 18px;
     line-height: 1.33;
     color: #ffd180;
+    text-align: center;
 }
 
 .content:hover,
@@ -761,7 +756,6 @@ li:hover .card-buttons {
 
 .footer-address {
   width: 340px;
-  height: 40px;
   font-size: 18px;
   line-height: 1.33;
   text-align: left;
@@ -775,7 +769,6 @@ li:hover .card-buttons {
 /* flex */
 .medium-footer {
     display: flex;
-    align-items: top;
     margin-top: 50px;
     justify-content: space-between;
     padding: 5px;
@@ -786,7 +779,7 @@ li:hover .card-buttons {
     display:flex;
     width: 940px;
     margin: 0 auto;
-    padding: 0 10px;
+    /* padding: 0 10px; DELETE */
     /* background-color: rgba(0, 0, 0, 0.3); */
 
   }
@@ -807,7 +800,6 @@ li:hover .card-buttons {
   }
 .products ul li {
     list-style: none;
-    display: inline-block;
     width: auto;
     height: auto;
   }
@@ -816,15 +808,12 @@ li:hover .card-buttons {
     display: flex;
     justify-content: space-between;
 }
-
-.footer-address-menu {
+.footer-address-menu,
+.footer-address-menu ul {
     display: flex;
 }
 
 .footer-address-menu ul li {
     list-style: none;
-    display: inline-block;
-    width: 127px;
-    height: 120px;
-    text-align: center;
+    padding-right: 60px;
   }
